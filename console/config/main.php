@@ -22,6 +22,9 @@ return [
           ],
     ],
     'components' => [
+        'hello' => [
+            'class' => 'common\services\HelloService'
+        ],
         'log' => [
             'targets' => [
                 [
